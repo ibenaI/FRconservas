@@ -92,7 +92,7 @@
             } else {
               link.removeAttribute("aria-current");
             }
-          });
+          }); 
         });
       },
       { rootMargin: "-35% 0px -55% 0px", threshold: 0 }
