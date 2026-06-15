@@ -1,6 +1,5 @@
 (function () {
-  const whatsappNumber = "";
-  const fallbackWhatsapp = "https://wa.me/";
+  const whatsappUrl = "https://w.app/4mvpte";
   const navToggle = document.querySelector("[data-nav-toggle]");
   const navToggleLabel = document.querySelector("[data-nav-toggle-label]");
   const navMenu = document.querySelector("[data-nav-menu]");
@@ -9,14 +8,8 @@
   const backToTop = document.querySelector("[data-back-to-top]");
   const desktopQuery = window.matchMedia("(min-width: 768px)");
 
-  function createWhatsappUrl(message) {
-    const encodedMessage = encodeURIComponent(message || "Hola FR Conservas, quiero hacer una consulta.");
-    const baseUrl = whatsappNumber ? `https://wa.me/${whatsappNumber}` : fallbackWhatsapp;
-    return `${baseUrl}?text=${encodedMessage}`;
-  }
-
   whatsappLinks.forEach((link) => {
-    link.href = createWhatsappUrl(link.dataset.message);
+    link.href = whatsappUrl;
     link.rel = "noopener";
   });
 
