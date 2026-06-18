@@ -5,12 +5,44 @@
   const navMenu = document.querySelector("[data-nav-menu]");
   const navLinks = document.querySelectorAll("[data-nav-link]");
   const whatsappLinks = document.querySelectorAll("[data-whatsapp-link]");
+  const smoothScrollLinks = document.querySelectorAll("[data-smooth-scroll]");
+  const siteHeader = document.querySelector("[data-site-header]");
   const backToTop = document.querySelector("[data-back-to-top]");
   const desktopQuery = window.matchMedia("(min-width: 768px)");
+  const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   whatsappLinks.forEach((link) => {
     link.href = whatsappUrl;
     link.rel = "noopener";
+  });
+
+  smoothScrollLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      const targetId = link.getAttribute("href");
+
+      if (!targetId || !targetId.startsWith("#")) {
+        return;
+      }
+
+      const target = document.querySelector(targetId);
+
+      if (!target) {
+        return;
+      }
+
+      event.preventDefault();
+      const headerHeight = siteHeader ? siteHeader.getBoundingClientRect().height : 0;
+      const targetTop = target.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+      window.scrollTo({
+        top: Math.max(targetTop, 0),
+        behavior: reducedMotionQuery.matches ? "auto" : "smooth",
+      });
+
+      if (window.history.pushState) {
+        window.history.pushState(null, "", targetId);
+      }
+    });
   });
 
   function setMobileMenuState(isOpen) {
