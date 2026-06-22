@@ -54,7 +54,7 @@
     navToggle.setAttribute("aria-expanded", String(isOpen));
 
     if (navToggleLabel) {
-      navToggleLabel.textContent = isOpen ? "Cerrar menu" : "Abrir menu";
+      navToggleLabel.textContent = isOpen ? "Cerrar menú" : "Abrir menú";
     }
 
     if ("inert" in navMenu) {
