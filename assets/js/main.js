@@ -1,5 +1,5 @@
 (function () {
-  const whatsappUrl = "https://w.app/4mvpte";
+  const whatsappUrl = "https://api.whatsapp.com/send/?phone=5491140966637&text=Hola%20buenas!&type=phone_number&app_absent=0";
   const navToggle = document.querySelector("[data-nav-toggle]");
   const navToggleLabel = document.querySelector("[data-nav-toggle-label]");
   const navMenu = document.querySelector("[data-nav-menu]");
