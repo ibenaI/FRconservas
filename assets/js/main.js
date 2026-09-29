@@ -1,5 +1,6 @@
 (function () {
-  const whatsappUrl = "https://api.whatsapp.com/send/?phone=5491140966637&text=Hola%20buenas!&type=phone_number&app_absent=0";
+  const whatsappPhone = "5491140966637";
+  const whatsappDefaultMessage = "Hola! Quiero hacer una consulta sobre las conservas FR";
   const navToggle = document.querySelector("[data-nav-toggle]");
   const navToggleLabel = document.querySelector("[data-nav-toggle-label]");
   const navMenu = document.querySelector("[data-nav-menu]");
@@ -11,9 +12,19 @@
   const desktopQuery = window.matchMedia("(min-width: 768px)");
   const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
+  window.dataLayer = window.dataLayer || [];
+
   whatsappLinks.forEach((link) => {
-    link.href = whatsappUrl;
+    const message = link.dataset.whatsappMessage || whatsappDefaultMessage;
+    link.href = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(message)}`;
     link.rel = "noopener";
+
+    link.addEventListener("click", () => {
+      window.dataLayer.push({
+        event: "whatsapp_click",
+        cta_location: link.dataset.location || "sin_ubicacion",
+      });
+    });
   });
 
   smoothScrollLinks.forEach((link) => {
