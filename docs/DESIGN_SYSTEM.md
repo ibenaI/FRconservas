@@ -1,8 +1,8 @@
-# FR Conservas - Design System
+# Entre Frascos - Design System
 
 ## Design Direction
 
-FR Conservas should feel artisanal, gastronomic, premium, close, and professional. The visual system should come from the brand logo: preserved food, glass jar, organic lines, paper warmth, and olive-green identity.
+Entre Frascos should feel artisanal, gastronomic, premium, close, and professional. The visual system should come from the brand logo: preserved food, glass jar, organic lines, paper warmth, and olive-green identity.
 
 The design should avoid technological, neon, futuristic, childish, or cold corporate aesthetics.
 

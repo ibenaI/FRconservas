@@ -1,4 +1,4 @@
-# FR Conservas - Conversion Strategy
+# Entre Frascos - Conversion Strategy
 
 ## Conversion Objective
 
@@ -46,15 +46,15 @@ The WhatsApp link should include a prefilled message to reduce typing effort.
 
 Recommended message:
 
-"Hola FR Conservas, quiero consultar por productos disponibles."
+"Hola Entre Frascos, quiero consultar por productos disponibles."
 
 For product-specific CTAs:
 
-"Hola FR Conservas, quiero consultar por [producto]."
+"Hola Entre Frascos, quiero consultar por [producto]."
 
 For commercial inquiries:
 
-"Hola FR Conservas, quiero consultar por pedidos para comercio."
+"Hola Entre Frascos, quiero consultar por pedidos para comercio."
 
 ## CTA Placement
 

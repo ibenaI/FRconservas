@@ -1,8 +1,8 @@
-# FR ENCUTIDOS — BRAND CONTEXT
+# ENTRE FRASCOS — BRAND CONTEXT
 
 ## DESCRIPCIÓN GENERAL
 
-FR Encurtidos es una marca independiente especializada en productos encurtidos artesanales.
+Entre Frascos es una marca independiente especializada en productos encurtidos artesanales.
 
 Actualmente sus productos principales son:
 
@@ -48,7 +48,7 @@ Objetivos de largo plazo:
 
 # POSICIONAMIENTO
 
-FR Encurtidos no compite por precio.
+Entre Frascos no compite por precio.
 
 La marca compite por:
 
@@ -155,7 +155,7 @@ Generar consultas.
 
 Construir reconocimiento de marca.
 
-Posicionar a FR Encurtidos como referencia dentro de su categoría.
+Posicionar a Entre Frascos como referencia dentro de su categoría.
 
 ---
 

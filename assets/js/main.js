@@ -1,6 +1,6 @@
 (function () {
   const whatsappPhone = "5491140966637";
-  const whatsappDefaultMessage = "Hola! Quiero hacer una consulta sobre las conservas FR";
+  const whatsappDefaultMessage = "Hola! Quiero hacer una consulta sobre las conservas de Entre Frascos";
   const navToggle = document.querySelector("[data-nav-toggle]");
   const navToggleLabel = document.querySelector("[data-nav-toggle-label]");
   const navMenu = document.querySelector("[data-nav-menu]");

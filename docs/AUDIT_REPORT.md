@@ -1,4 +1,4 @@
-# FR Conservas - Production Audit Report
+# Entre Frascos - Production Audit Report
 
 ## Audit Scope
 
@@ -69,7 +69,7 @@ Actual Lighthouse scoring should still be verified in a browser because this env
 
 Strengths:
 
-- The user can understand the offer quickly: FR Conservas sells artisanal pickled eggplants and peppers.
+- The user can understand the offer quickly: Entre Frascos sells artisanal pickled eggplants and peppers.
 - Section flow supports the decision path: understand, trust, inspect products, resolve doubts, contact.
 - WhatsApp appears early and repeatedly without creating a cluttered interface.
 - Product cards are specific and scannable.

@@ -608,7 +608,7 @@ p {
 .faq {
   background:
     linear-gradient(rgba(23, 39, 28, 0.91), rgba(23, 39, 28, 0.94)),
-    url("../../assets/img/fr-conservas-hero.jpg") center / cover;
+    url("../../assets/img/entre-frascos-hero.jpg") center / cover;
 }
 
 .faq h2,
@@ -660,7 +660,7 @@ p {
 .final-cta {
   background:
     linear-gradient(90deg, rgba(243, 232, 208, 0.98) 0 48%, rgba(250, 247, 239, 0.78)),
-    url("../../assets/img/fr-conservas-hero.jpg") right center / cover;
+    url("../../assets/img/entre-frascos-hero.jpg") right center / cover;
 }
 
 .final-cta__inner {
@@ -860,7 +860,7 @@ p {
   .final-cta {
     background:
       linear-gradient(rgba(243, 232, 208, 0.96), rgba(250, 247, 239, 0.96)),
-      url("../../assets/img/fr-conservas-hero.jpg") center / cover;
+      url("../../assets/img/entre-frascos-hero.jpg") center / cover;
   }
 }
 

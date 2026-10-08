@@ -1,8 +1,8 @@
-# FR ENCUTIDOS — LANDING PAGE BRIEF
+# ENTRE FRASCOS — LANDING PAGE BRIEF
 
 ## OBJETIVO DEL PROYECTO
 
-Diseñar y desarrollar una landing page enfocada en conversión para FR Encurtidos.
+Diseñar y desarrollar una landing page enfocada en conversión para Entre Frascos.
 
 El objetivo principal es generar consultas y ventas mediante WhatsApp.
 

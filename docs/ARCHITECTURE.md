@@ -1,8 +1,8 @@
-# FR Conservas - Architecture
+# Entre Frascos - Architecture
 
 ## Business Objectives
 
-FR Conservas needs a one-page, mobile-first landing page focused on commercial action. The primary business objective is to generate direct WhatsApp conversations that become product inquiries and orders.
+Entre Frascos needs a one-page, mobile-first landing page focused on commercial action. The primary business objective is to generate direct WhatsApp conversations that become product inquiries and orders.
 
 Secondary objectives:
 

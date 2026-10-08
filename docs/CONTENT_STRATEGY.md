@@ -1,12 +1,12 @@
-# FR Conservas - Content Strategy
+# Entre Frascos - Content Strategy
 
 ## Content Role
 
-The content must make FR Conservas feel artisanal, premium, close, and trustworthy. It should explain the product clearly, create appetite, and guide users toward WhatsApp without sounding aggressive.
+The content must make Entre Frascos feel artisanal, premium, close, and trustworthy. It should explain the product clearly, create appetite, and guide users toward WhatsApp without sounding aggressive.
 
 The page should answer three questions quickly:
 
-1. What does FR Conservas sell?
+1. What does Entre Frascos sell?
 2. Why should I trust the product?
 3. How do I buy or ask for availability?
 
@@ -51,20 +51,20 @@ Avoid:
 
 The hero should communicate:
 
-- Brand: FR Conservas.
+- Brand: Entre Frascos.
 - Category: conservas / encurtidos artesanales.
 - Products: berenjenas and morrones.
 - Action: consult or order by WhatsApp.
 
 Suggested H1 options:
 
-- "FR Conservas"
-- "Conservas artesanales FR"
+- "Entre Frascos"
+- "Conservas artesanales Entre Frascos"
 - "Encurtidos artesanales para disfrutar y compartir"
 
 For SEO and clarity, the strongest option is likely:
 
-"Conservas artesanales FR"
+"Conservas artesanales Entre Frascos"
 
 It gives the brand and category in one line.
 
@@ -171,15 +171,15 @@ The current source files do not specify location, so location-based SEO should n
 
 SEO title:
 
-"FR Conservas | Conservas y encurtidos artesanales"
+"Entre Frascos | Conservas y encurtidos artesanales"
 
 Meta description:
 
-"Conservas artesanales FR: berenjenas y morrones encurtidos con ingredientes seleccionados, elaboracion cuidada y contacto directo por WhatsApp."
+"Conservas artesanales Entre Frascos: berenjenas y morrones encurtidos con ingredientes seleccionados, elaboracion cuidada y contacto directo por WhatsApp."
 
 Open Graph title:
 
-"FR Conservas - Encurtidos artesanales"
+"Entre Frascos - Encurtidos artesanales"
 
 Open Graph description:
 
@@ -189,7 +189,7 @@ Open Graph description:
 
 Use one H1:
 
-- Conservas artesanales FR
+- Conservas artesanales Entre Frascos
 
 Use H2 for major sections:
 
@@ -207,9 +207,9 @@ Alt text should describe the product or brand asset, not stuff keywords.
 
 Examples:
 
-- "Logo de FR Conservas con ilustracion de frasco artesanal"
-- "Frasco de berenjenas encurtidas FR Conservas"
-- "Frasco de morrones encurtidos FR Conservas"
+- "Logo de Entre Frascos: frasco con la tapa entreabierta"
+- "Frasco de berenjenas encurtidas Entre Frascos"
+- "Frasco de morrones encurtidos Entre Frascos"
 
 ## Content Gaps To Resolve Before Final Landing
 
